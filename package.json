@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "testcafe": "testcafe",
     "test:chrome": "npm run testcafe -- chrome",
-    "test:firefox": "npm run testcafe -- firefox"
+    "test:firefox": "npm run testcafe -- firefox",
+    "test:headless:chrome": "npm run testcafe -- 'chrome:headless'",
+    "test:headless:firefox": "npm run testcafe -- 'firefox:headless'"
   },
   "repository": {
     "type": "git",
