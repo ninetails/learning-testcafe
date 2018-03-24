@@ -1,0 +1,21 @@
+{
+  "name": "learning-testcafe",
+  "version": "1.0.0",
+  "description": "Testing testcafe doing it's Getting Started on their Documentation section",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninetails/learning-testcafe.git"
+  },
+  "keywords": [],
+  "author": "Carlos Kazuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninetails/learning-testcafe/issues"
+  },
+  "homepage": "https://github.com/ninetails/learning-testcafe#readme"
+}
