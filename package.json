@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Testing testcafe doing it's Getting Started on their Documentation section",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "testcafe": "^0.19.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testcafe": "testcafe",
+    "test:chrome": "npm run testcafe -- chrome",
+    "test:firefox": "npm run testcafe -- firefox"
   },
   "repository": {
     "type": "git",
